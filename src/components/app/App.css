@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: blue;
+}
+#card{
+ background-color: aquamarine;
+ width: 30em;
+ min-width: 23em;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  /* grid-template-columns: auto auto auto; */
+}
+
+
