@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.Cont{
+  font-family: 'Times New Roman', Times, serif;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 2px;
+  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

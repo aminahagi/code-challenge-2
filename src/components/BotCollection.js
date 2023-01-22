@@ -1,6 +1,5 @@
 import React from "react";
-
-export default function BotCollection({
+export default function BotCollection({ handleSUbmit,
   name,
   health,
   damage,
@@ -11,11 +10,21 @@ export default function BotCollection({
   created,
   update,
 }) {
-  console.log(name);
-  console.log(image);
+
+
   return (
-    <div className="cont">
-      <div className="content">
+    <div className="card" onClick={(e)=>
+      {handleSUbmit( name,
+      health,
+      damage,
+      armor,
+      classes,
+      catchphrase,
+      image,
+      created,
+      update,)}}>
+      <div className="cont">
+
         <div className="card-container" id="card">
           <img src={image} className="" alt={name} />
           <h6 className="card-title">name: {name}</h6>
@@ -29,19 +38,5 @@ export default function BotCollection({
         </div>
       </div>
     </div>
-
-    //     <div  className="card">
-    //
-    //   <div>
-    //     <h5 className="card-title">Card title</h5>
-    //     <p className="titles">
-    //       Some quick example text to build on the card title and make up the
-    //       bulk of the card's content.
-    //     </p>
-    //     <a href="/" className="btn btn-primary">
-    //       Go somewhere
-    //     </a>
-    //   </div>
-    //     </div>
   );
 }
