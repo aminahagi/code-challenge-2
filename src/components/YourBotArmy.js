@@ -1,6 +1,6 @@
   import React from "react";
 
- export default function BotArmy(){
+ function BotArmy(){
       console.log("hello");
     return(
         <div id="bort">
@@ -8,4 +8,5 @@
            
         </div>
     )
- }
+ };
+ export default BotArmy;

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NavBar() {
+function NavBar() {
   return (
     <div>
       <nav className="navbar bg-primary">
@@ -29,4 +29,5 @@ export default function NavBar() {
       </nav>
     </div>
   );
-}
+};
+export default NavBar;

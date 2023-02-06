@@ -1,5 +1,6 @@
 import React from "react";
-export default function BotCollection({ handleSUbmit,
+
+function BotCollection({ handleSUbmit,
   name,
   health,
   damage,
@@ -40,3 +41,4 @@ export default function BotCollection({ handleSUbmit,
     </div>
   );
 }
+export default BotCollection;

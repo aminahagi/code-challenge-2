@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 const URL = "https://vercel1-smoky.vercel.app/bots";
 
 
-export default function DataFetching() {
+function DataFetching() {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
@@ -52,3 +52,4 @@ export default function DataFetching() {
     </div>
   );
 }
+export default DataFetching;
